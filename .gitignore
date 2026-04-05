@@ -1,0 +1,99 @@
+# -----------------------
+# IntelliJ IDEA / JetBrains
+# -----------------------
+.idea/
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+*.iml
+*.ipr
+*.iws
+out/
+.idea_modules/
+# IntelliJ crash logs
+idea.log
+
+# -----------------------
+# Visual Studio Code
+# -----------------------
+.vscode/
+.history/
+*.code-workspace
+
+# -----------------------
+# Cursor editor
+# -----------------------
+.cursor/
+.cursorignore
+.cursorindexingignore
+
+# -----------------------
+# Gradle
+# -----------------------
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# -----------------------
+# Maven
+# -----------------------
+target/
+
+# -----------------------
+# Java / Kotlin
+# -----------------------
+*.class
+*.ctxt
+*.jar
+*.war
+*.ear
+.kotlin
+
+# -----------------------
+# Logs
+# -----------------------
+*.log
+*.log.*
+
+# -----------------------
+# Vaadin
+# -----------------------
+**/frontend/generated
+node_modules/
+pnpmfile.js
+drivers/
+error-screenshots/
+webpack.generated.js
+
+# -----------------------
+# OS-specific
+# -----------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+.Icon
+.Spotlight-V100
+.Trashes
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# -----------------------
+# Others
+# -----------------------
+*.tmp
+*.temp
+prpr/
+./*.pt
+*.proto
